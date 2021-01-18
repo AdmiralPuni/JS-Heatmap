@@ -1,0 +1,63 @@
+.grid {
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+}
+
+.container {
+    border: 2px solid black;
+    width: 700px;
+    height: 500px;
+    background-size: cover;
+}
+
+/* grid heat level */
+.heatlvl0 {
+    background-color: rgba(0, 0, 131, 0.2);
+    /* blue */
+}
+
+.heatlvl1 {
+    background-color: rgba(130, 255, 128, 0.3)
+        /* green */
+}
+
+.heatlvl2 {
+    background-color: rgba(243, 255, 12, 0.4)
+        /* yellow */
+}
+
+.heatlvl3 {
+    background-color: rgba(255, 102, 0, 0.5);
+    /* orange */
+}
+
+.heatlvl4 {
+    background-color: rgba(250, 21, 0, 0.6);
+    /* red */
+}
+
+.img-cus {
+    width: 1000px;
+    height: 750px;
+}
+
+.center-cus {
+    margin: 0 auto;
+}
+.outerin{
+    padding-left:19%;
+    
+}
+.outer{
+    width: 1000px;
+    height: math((3/4)*1000);
+}
+@media only screen and (max-width: 800px) {
+    .outerin{
+        padding:0;
+    }
+    .panel{
+        padding-right:40px;
+    }
+}
